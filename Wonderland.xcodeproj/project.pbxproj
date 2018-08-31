@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEEC69E121391CE10000CE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC69E021391CE10000CE3C /* AppDelegate.m */; };
+		AEEC69E421391CE10000CE3C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC69E321391CE10000CE3C /* FirstViewController.m */; };
+		AEEC69E721391CE10000CE3C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC69E621391CE10000CE3C /* SecondViewController.m */; };
+		AEEC69EA21391CE10000CE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEC69E821391CE10000CE3C /* Main.storyboard */; };
+		AEEC69EC21391CE50000CE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEC69EB21391CE50000CE3C /* Assets.xcassets */; };
+		AEEC69EF21391CE50000CE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEC69ED21391CE50000CE3C /* LaunchScreen.storyboard */; };
+		AEEC69F221391CE50000CE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC69F121391CE50000CE3C /* main.m */; };
+		AEEC69FC21391CE50000CE3C /* WonderlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC69FB21391CE50000CE3C /* WonderlandTests.m */; };
+		AEEC6A0721391CE60000CE3C /* WonderlandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC6A0621391CE60000CE3C /* WonderlandUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEEC69F821391CE50000CE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEC69D421391CE10000CE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEC69DB21391CE10000CE3C;
+			remoteInfo = Wonderland;
+		};
+		AEEC6A0321391CE60000CE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEC69D421391CE10000CE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEC69DB21391CE10000CE3C;
+			remoteInfo = Wonderland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEEC69DC21391CE10000CE3C /* Wonderland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wonderland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC69DF21391CE10000CE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEEC69E021391CE10000CE3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEEC69E221391CE10000CE3C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AEEC69E321391CE10000CE3C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AEEC69E521391CE10000CE3C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AEEC69E621391CE10000CE3C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AEEC69E921391CE10000CE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEC69EB21391CE50000CE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEEC69EE21391CE50000CE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEEC69F021391CE50000CE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEC69F121391CE50000CE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEEC69F721391CE50000CE3C /* WonderlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderlandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC69FB21391CE50000CE3C /* WonderlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderlandTests.m; sourceTree = "<group>"; };
+		AEEC69FD21391CE60000CE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEC6A0221391CE60000CE3C /* WonderlandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderlandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC6A0621391CE60000CE3C /* WonderlandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderlandUITests.m; sourceTree = "<group>"; };
+		AEEC6A0821391CE60000CE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEEC69D921391CE10000CE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC69F421391CE50000CE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC69FF21391CE60000CE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEEC69D321391CE10000CE3C = {
+			isa = PBXGroup;
+			children = (
+				AEEC69DE21391CE10000CE3C /* Wonderland */,
+				AEEC69FA21391CE50000CE3C /* WonderlandTests */,
+				AEEC6A0521391CE60000CE3C /* WonderlandUITests */,
+				AEEC69DD21391CE10000CE3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEC69DD21391CE10000CE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC69DC21391CE10000CE3C /* Wonderland.app */,
+				AEEC69F721391CE50000CE3C /* WonderlandTests.xctest */,
+				AEEC6A0221391CE60000CE3C /* WonderlandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEC69DE21391CE10000CE3C /* Wonderland */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC69DF21391CE10000CE3C /* AppDelegate.h */,
+				AEEC69E021391CE10000CE3C /* AppDelegate.m */,
+				AEEC69E221391CE10000CE3C /* FirstViewController.h */,
+				AEEC69E321391CE10000CE3C /* FirstViewController.m */,
+				AEEC69E521391CE10000CE3C /* SecondViewController.h */,
+				AEEC69E621391CE10000CE3C /* SecondViewController.m */,
+				AEEC69E821391CE10000CE3C /* Main.storyboard */,
+				AEEC69EB21391CE50000CE3C /* Assets.xcassets */,
+				AEEC69ED21391CE50000CE3C /* LaunchScreen.storyboard */,
+				AEEC69F021391CE50000CE3C /* Info.plist */,
+				AEEC69F121391CE50000CE3C /* main.m */,
+			);
+			path = Wonderland;
+			sourceTree = "<group>";
+		};
+		AEEC69FA21391CE50000CE3C /* WonderlandTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC69FB21391CE50000CE3C /* WonderlandTests.m */,
+				AEEC69FD21391CE60000CE3C /* Info.plist */,
+			);
+			path = WonderlandTests;
+			sourceTree = "<group>";
+		};
+		AEEC6A0521391CE60000CE3C /* WonderlandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC6A0621391CE60000CE3C /* WonderlandUITests.m */,
+				AEEC6A0821391CE60000CE3C /* Info.plist */,
+			);
+			path = WonderlandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEEC69DB21391CE10000CE3C /* Wonderland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEC6A0B21391CE60000CE3C /* Build configuration list for PBXNativeTarget "Wonderland" */;
+			buildPhases = (
+				AEEC69D821391CE10000CE3C /* Sources */,
+				AEEC69D921391CE10000CE3C /* Frameworks */,
+				AEEC69DA21391CE10000CE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wonderland;
+			productName = Wonderland;
+			productReference = AEEC69DC21391CE10000CE3C /* Wonderland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEEC69F621391CE50000CE3C /* WonderlandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEC6A0E21391CE60000CE3C /* Build configuration list for PBXNativeTarget "WonderlandTests" */;
+			buildPhases = (
+				AEEC69F321391CE50000CE3C /* Sources */,
+				AEEC69F421391CE50000CE3C /* Frameworks */,
+				AEEC69F521391CE50000CE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEC69F921391CE50000CE3C /* PBXTargetDependency */,
+			);
+			name = WonderlandTests;
+			productName = WonderlandTests;
+			productReference = AEEC69F721391CE50000CE3C /* WonderlandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEEC6A0121391CE60000CE3C /* WonderlandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEC6A1121391CE60000CE3C /* Build configuration list for PBXNativeTarget "WonderlandUITests" */;
+			buildPhases = (
+				AEEC69FE21391CE60000CE3C /* Sources */,
+				AEEC69FF21391CE60000CE3C /* Frameworks */,
+				AEEC6A0021391CE60000CE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEC6A0421391CE60000CE3C /* PBXTargetDependency */,
+			);
+			name = WonderlandUITests;
+			productName = WonderlandUITests;
+			productReference = AEEC6A0221391CE60000CE3C /* WonderlandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEEC69D421391CE10000CE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gao Xing";
+				TargetAttributes = {
+					AEEC69DB21391CE10000CE3C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AEEC69F621391CE50000CE3C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AEEC69DB21391CE10000CE3C;
+					};
+					AEEC6A0121391CE60000CE3C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AEEC69DB21391CE10000CE3C;
+					};
+				};
+			};
+			buildConfigurationList = AEEC69D721391CE10000CE3C /* Build configuration list for PBXProject "Wonderland" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEEC69D321391CE10000CE3C;
+			productRefGroup = AEEC69DD21391CE10000CE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEC69DB21391CE10000CE3C /* Wonderland */,
+				AEEC69F621391CE50000CE3C /* WonderlandTests */,
+				AEEC6A0121391CE60000CE3C /* WonderlandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEC69DA21391CE10000CE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC69EF21391CE50000CE3C /* LaunchScreen.storyboard in Resources */,
+				AEEC69EC21391CE50000CE3C /* Assets.xcassets in Resources */,
+				AEEC69EA21391CE10000CE3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC69F521391CE50000CE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC6A0021391CE60000CE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEEC69D821391CE10000CE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC69E721391CE10000CE3C /* SecondViewController.m in Sources */,
+				AEEC69E121391CE10000CE3C /* AppDelegate.m in Sources */,
+				AEEC69F221391CE50000CE3C /* main.m in Sources */,
+				AEEC69E421391CE10000CE3C /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC69F321391CE50000CE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC69FC21391CE50000CE3C /* WonderlandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC69FE21391CE60000CE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC6A0721391CE60000CE3C /* WonderlandUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEEC69F921391CE50000CE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEC69DB21391CE10000CE3C /* Wonderland */;
+			targetProxy = AEEC69F821391CE50000CE3C /* PBXContainerItemProxy */;
+		};
+		AEEC6A0421391CE60000CE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEC69DB21391CE10000CE3C /* Wonderland */;
+			targetProxy = AEEC6A0321391CE60000CE3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEEC69E821391CE10000CE3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEC69E921391CE10000CE3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEC69ED21391CE50000CE3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEC69EE21391CE50000CE3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEEC6A0921391CE60000CE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEEC6A0A21391CE60000CE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEC6A0C21391CE60000CE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wonderland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ympc.Wonderland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEC6A0D21391CE60000CE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wonderland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ympc.Wonderland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEEC6A0F21391CE60000CE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WonderlandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ympc.WonderlandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wonderland.app/Wonderland";
+			};
+			name = Debug;
+		};
+		AEEC6A1021391CE60000CE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WonderlandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ympc.WonderlandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wonderland.app/Wonderland";
+			};
+			name = Release;
+		};
+		AEEC6A1221391CE60000CE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WonderlandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ympc.WonderlandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wonderland;
+			};
+			name = Debug;
+		};
+		AEEC6A1321391CE60000CE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WonderlandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ympc.WonderlandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wonderland;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEEC69D721391CE10000CE3C /* Build configuration list for PBXProject "Wonderland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC6A0921391CE60000CE3C /* Debug */,
+				AEEC6A0A21391CE60000CE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEC6A0B21391CE60000CE3C /* Build configuration list for PBXNativeTarget "Wonderland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC6A0C21391CE60000CE3C /* Debug */,
+				AEEC6A0D21391CE60000CE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEC6A0E21391CE60000CE3C /* Build configuration list for PBXNativeTarget "WonderlandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC6A0F21391CE60000CE3C /* Debug */,
+				AEEC6A1021391CE60000CE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEC6A1121391CE60000CE3C /* Build configuration list for PBXNativeTarget "WonderlandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC6A1221391CE60000CE3C /* Debug */,
+				AEEC6A1321391CE60000CE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEEC69D421391CE10000CE3C /* Project object */;
+}
